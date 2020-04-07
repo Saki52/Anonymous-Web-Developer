@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+#title {
+  background-color: #ff4c68;
+  font-family: 'Mukta', sans-serif;
+  font-size: 1.5em;
+  padding: 1% 5%;
+}
+.navbar-brand {
+  font-size: 1.2rem;
+}
+
+.nav-item {
+  padding: 0 18px 5px 18px;
+}
+.dropdown-menu a {
+  color: green;
+}
+.dropdown-menu a:hover{
+  color: #ff4c68;
+}
+
+/* font fontawesome button */
+.fab {
+  margin-right: 3px;
+  margin-top: 1px;
+}
+/* second-section */
+#second-section {
+  text-align: center;
+  padding: 12% 15%;
+  position: relative;
+  background-color: pink;
+  font-family: 'Ubuntu', sans-serif;
+}
+.image-1 {
+  position: absolute;
+  left: 200px;
+  top: 50px;
+  width: 20%;
+  border-radius: 50%;
+}
+.image-2 {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+  width: 15%;
+  border-radius: 100%;
+}
+.image-3 {
+  width: 30%;
+  right: 470px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.my-title {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+@media (max-width:1170px) {
+  .image-1, .image-2 {
+    width: 40%;
+    position: static;
+  }
+  .my-title {
+    text-align: center;
+  }
+
+ .image-1 {
+   margin-bottom: 10px;
+ }
+  .image-2 {
+    margin-top: 30px;
+  }
+  .image-3 {
+    display: none;
+  }
+ .mypicture {
+   width: 60%;
+ }
+ em {
+   display: none;
+ }
+}
+/* third-section */
+#third-section {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #b9ebcc;
+  position: relative;
+  z-index: 1;
+}
+.icon {
+  margin:10%;
+  color: #ea6227;
+}
+/* fourth-section */
+
+#fourth-section {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fd2eb3;
+}
+.mypicture {
+  width: 25%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* final-section */
+#final-section {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #b9ebcc;
+}
+.row .btn {
+  margin: 10px;
+}
+
+/* last-section */
+#last-section {
+  padding:5%;
+  text-align: center;
+  background-color: pink;
+}
+.youtube {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.youtube-videos {
+  color: #00bdaa;
+}
+#ground-section {
+  text-align: center;
+  padding: 3% 5%;
+  background-color: #b9ebcc;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+}
